@@ -16,6 +16,7 @@
     <br />
     <br />
     <a href="https://documentation.wazuh.com/current/index.html">Wazuh Docs</a>
+    <br>
     <a href="https://belvasgg.medium.com/">My Blog</a>
   </p>
 </div>
