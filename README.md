@@ -1,8 +1,6 @@
 
 
-# Kumpulan Wazuh Detection Rules [![Awesome](https://img.shields.io/badge/SOCFortress-Worlds%20First%20Free%20Cloud%20SOC-orange)](https://www.socfortress.co/trial.html)
-> The SOCFortress Team has committed to contributing to the Open Source community. We hope you find these rulesets helpful and robust as you work to keep your networks secure.
-
+# Kumpulan Wazuh Detection Rules [![Awesome]
 
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -118,8 +116,6 @@ Wazuh-Manager Version 4.x Required.
 
 [Wazuh Install Docs](https://documentation.wazuh.com/current/index.html)
 
-[Need Assitance? - Hire SOCFortress](https://www.socfortress.co/contact_form.html)
-
 ### Installation
 
 _You can either manually download the .xml rule files onto your Wazuh Manager or make use of our wazuh_socfortress_rules.sh script_
@@ -137,58 +133,5 @@ _You can either manually download the .xml rule files onto your Wazuh Manager or
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b ruleCategory/DetectionRule`)
-3. Commit your Changes (`git commit -m 'Add some DetectionRules'`)
-4. Push to the Branch (`git push origin ruleCategory/DetectionRule`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTACT -->
-## Contact
-
-SOCFortress - [![LinkedIn][linkedin-shield]][linkedin-url] - info@socfortress.co
-
-<div align="center">
-  <h2 align="center">Let SOCFortress Take Your Open Source SIEM to the Next Level</h3>
-  <a href="https://www.socfortress.co/contact_form.html">
-    <img src="images/Email%20Banner.png" alt="Banner">
-  </a>
 
 
-</div>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Security is best when we work together! Huge thank you to those supporting and those future supporters!
-
-* [Wazuh Team](https://documentation.wazuh.com/current/index.html)
-* [Taylor Walton](https://www.youtube.com/channel/UC4EUQtTxeC8wGrKRafI6pZg)
-* [Juan Romero](https://github.com/juaromu)
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/socfortress/Wazuh-Rules
-[contributors-url]: https://github.com/socfortress/Wazuh-Rules/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/socfortress/Wazuh-Rules
-[forks-url]: https://github.com/socfortress/Wazuh-Rules/network/members
-[stars-shield]: https://img.shields.io/github/stars/socfortress/Wazuh-Rules
-[stars-url]: https://github.com/socfortress/Wazuh-Rules/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/badge/Help%20Desk-Help%20Desk-blue
-[license-url]: https://servicedesk.socfortress.co/help/2979687893
-[linkedin-shield]: https://img.shields.io/badge/Visit%20Us-www.socfortress.co-orange
-[linkedin-url]: https://www.socfortress.co/
