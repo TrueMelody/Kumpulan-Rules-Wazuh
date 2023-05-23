@@ -58,8 +58,6 @@ Here's why:
 * Cybersecurity is hard enough, let's work together :smile:
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ### Rules dan Integrations yang di Support
 
@@ -85,7 +83,6 @@ Berikut ini adalah rules dan integrasi yang saat ini terdapat dalam repositori i
 * [Powershell](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/Windows%20Powershell)
 * [Crowdstrike](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/Crowdstrike)
 * [Alienvault](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/Domain%20Stats)
-* Tessian - WIP
 
 <!-- GETTING STARTED -->
 ## Getting Started
