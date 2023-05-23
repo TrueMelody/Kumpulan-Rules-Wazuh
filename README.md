@@ -100,16 +100,13 @@ Wazuh-Manager Version 4.x Required.
 
 ### Installation
 
-> :warning: **USE AT OWN RISK**: If you already have custom rules built out, there is a good chance duplicate Rule IDs will exists. This will casue the Wazuh-Manager service to fail! Ensure there are no conflicting Rule IDs and your custom rules are backed up prior to running the wazuh_rules.sh script!
-
-
 1. Harus menjadi Root User
 2. Jalankan Script ini 
    ```sh
    curl -so ~/wazuh_rules.sh https://raw.githubusercontent.com/TrueMelody/Kumpulan-Rules-Wazuh/main/wazuh_rules.sh && bash ~/wazuh_rules.sh
    ```
 
-![Alt Text](https://github.com/socfortress/Wazuh-Rules/blob/main/images/run%20install.gif)
+![Alt Text](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/blob/main/images/run%20install.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
