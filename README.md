@@ -12,7 +12,7 @@
   <h3 align="center">Kumpulan Wazuh Detection Rules</h3>
 
   <p align="center">
-    Have Wazuh deployed and ingesting your logs but looking for some better detection rules? Look no further. The objective for this repo is to provide the Wazuh community with rulesets that are more accurate, descriptive, and enriched from various sources and integrations.
+    Rules pada Wazuh merupakan seperangkat aturan yang digunakan oleh platform Wazuh dalam mendeteksi aktivitas atau kejadian yang mencurigakan atau berbahaya dalam suatu sistem atau jaringan. Rules ini dirancang untuk mengidentifikasi suatu tanda-tanda adanya serangan, Security threats, atau abnormal behaviour yang dapat menunjukkan adanya intrusion pada suatu jaringan atau sistem. Repositori ini bertujuan memberikan suatu rules wazuh yang lebih akurat, deskriptif, dan beragam, yang diperoleh dari berbagai sumber yang terpercaya.
     <br />
     <br />
     <a href="https://documentation.wazuh.com/current/index.html">Wazuh Docs</a>
@@ -50,20 +50,20 @@
 <!-- ABOUT THE PROJECT -->
 ## About This Repo
 
-The objective for this repo is to provide the Wazuh community with rulesets that are more accurate, descriptive, and enriched from various sources and integrations.
+Tujuan dari repositori ini adalah menyediakan ruleset wazuh yang lebih akurat, deskriptif dari berbagai sumber yang terpercaya.
 
 Here's why:
-* Detection rules can be a tricky business and we believe everyone should have access to a strong and growing ruleset.
-* Wazuh serves as a great EDR agent, however the default rulesets are rather laxed (in our opinion). We wanted to start building a strong repo of Wazuh rules for the community to implement themselves and expand upon as new threats arise.
+* Detection rule merupakan hal yang cukup rumit, dan kami percaya bahwa setiap orang harus memiliki akses ke wazuh ruleset yang kuat dan terpercaya.
+* Wazuh berfungsi sebagai EDR (Endpoint Detection and Response) yang cukup baik, namun ruleset bawaannya terbilang kurang baikd dan kurang ketat. Maka dari itu, tujuan dari repositori ruleset wazuh ini adalah agar dapat diimplementasikan oleh komunitas dan diperluas ketika ancaman baru muncul kepermukaan.
 * Cybersecurity is hard enough, let's work together :smile:
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### Supported Rules and Integrations
+### Rules dan Integrations yang di Support
 
-Below are the current rules and integrations currently contained within this repo. Integrations, such as Office365, Trend Micro, etc. will have scripts provided within their respective folders for use. Feel free to build upon these scripts and contribute back :smile:
+Berikut ini adalah rules dan integrasi yang saat ini terdapat dalam repositori ini. Integrasi seperti Office365, Trend Micro, dan sebagainya akan memiliki skrip yang disediakan dalam foldernya masing-masing untuk digunakan. Anda dapat dengan bebas memperluas skrip-skrip ini dan berkontribusi kembali ke repositori ini.
 
 * [Sysmon for Windows](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/Windows_Sysmon)
 * [Sysmon for Linux](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/Sysmon%20Linux)
@@ -90,7 +90,7 @@ Below are the current rules and integrations currently contained within this rep
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Feel free to implement all of the rules that are contained within this repo, or pick and choose as you see fit. See our Installation section below for a bash script that can be ran on your Wazuh Manager to quickly put these rules to work!
+Anda bebas untuk mengimplementasikan semua ruleset yang terdapat dalam repositori ini, atau memilih ruleset yang sesuai dengan kebutuhan Anda. Silakan lihat bagian Instalasi di bawah ini untuk mendapatkan script bash yang dapat dijalankan pada Wazuh Manager Anda agar aturan-aturan ini segera bekerja dengan baik!
 
 ### Prerequisites
 
@@ -100,13 +100,11 @@ Wazuh-Manager Version 4.x Required.
 
 ### Installation
 
-_You can either manually download the .xml rule files onto your Wazuh Manager or make use of our wazuh_rules.sh script_
-
 > :warning: **USE AT OWN RISK**: If you already have custom rules built out, there is a good chance duplicate Rule IDs will exists. This will casue the Wazuh-Manager service to fail! Ensure there are no conflicting Rule IDs and your custom rules are backed up prior to running the wazuh_rules.sh script!
 
 
-1. Become Root User
-2. Run the Script
+1. Harus menjadi Root User
+2. Jalankan Script ini 
    ```sh
    curl -so ~/wazuh_rules.sh https://raw.githubusercontent.com/TrueMelody/Kumpulan-Rules-Wazuh/main/wazuh_rules.sh && bash ~/wazuh_rules.sh
    ```
@@ -114,6 +112,8 @@ _You can either manually download the .xml rule files onto your Wazuh Manager or
 ![Alt Text](https://github.com/socfortress/Wazuh-Rules/blob/main/images/run%20install.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<p>Credit : SOCFORTRESS</p>
+<br>
+<br>
+<br>
+<p>Credit : SOCFORTRESS (INDONESIAN TRANSLATION)</p>
 
