@@ -1,34 +1,23 @@
 
 
-# Kumpulan Wazuh Detection Rules [![Awesome]
-
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-[![your-own-soc-free-for-life-tier](https://img.shields.io/badge/Get%20Started-FREE%20FOR%20LIFE%20TIER-orange)](https://www.socfortress.co/trial.html)
+# Kumpulan Wazuh Detection Rules
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/socfortress/Wazuh-Rules">
-    <img src="images/logo_orange.svg" alt="Logo" width="100" height="100">
+  <a href="https://github.com/TrueMelody/Kumpulan-Rules-Wazuh">
     <img src="images/wazuh_logo.png" alt="Logo">
   </a>
 
-  <h3 align="center">Advanced Wazuh Detection Rules</h3>
+  <h3 align="center">Kumpulan Wazuh Detection Rules</h3>
 
   <p align="center">
     Have Wazuh deployed and ingesting your logs but looking for some better detection rules? Look no further. The objective for this repo is to provide the Wazuh community with rulesets that are more accurate, descriptive, and enriched from various sources and integrations.
     <br />
-    <a href="https://www.socfortress.co/index.html"><strong>Worlds First Open Source Cloud SOC »</strong></a>
-    <br />
     <br />
     <a href="https://documentation.wazuh.com/current/index.html">Wazuh Docs</a>
-    ·
-    <a href="https://www.socfortress.co/trial.html">FREE FOR LIFE TIER</a>
-    ·
-    <a href="https://socfortress.medium.com/">Our Blog</a>
+     
+    <a href="https://belvasgg.medium.com/">My Blog</a>
   </p>
 </div>
 
@@ -76,34 +65,27 @@ Here's why:
 
 Below are the current rules and integrations currently contained within this repo. Integrations, such as Office365, Trend Micro, etc. will have scripts provided within their respective folders for use. Feel free to build upon these scripts and contribute back :smile:
 
-* [Sysmon for Windows](https://github.com/socfortress/Wazuh-Rules/tree/main/Windows_Sysmon)
-* [Sysmon for Linux](https://github.com/socfortress/Wazuh-Rules/tree/main/Sysmon%20Linux)
-* [Office365](https://github.com/socfortress/Wazuh-Rules/tree/main/Office%20365)
-* [Microsoft Defender](https://github.com/socfortress/Wazuh-Rules/tree/main/Office%20Defender)
-* [Sophos](https://github.com/socfortress/Wazuh-Rules/tree/main/Sophos)
-* [MISP](https://github.com/socfortress/Wazuh-Rules/tree/main/MISP)
-* [Osquery](https://github.com/socfortress/Wazuh-Rules/tree/main/Osquery)
-* [Yara](https://github.com/socfortress/Wazuh-Rules/tree/main/Yara)
-* [Suricata](https://github.com/socfortress/Wazuh-Rules/tree/main/Suricata)
-* [Packetbeat](https://github.com/socfortress/Wazuh-Rules/tree/main/Packetbeat)
-* [Falco](https://github.com/socfortress/Wazuh-Rules/tree/main/Falco)
-* [Modsecurity](https://github.com/socfortress/Wazuh-Rules/tree/main/Modsecurity)
-* [F-Secure](https://github.com/socfortress/Wazuh-Rules/tree/main/F-Secure)
-* [Domain Stats](https://github.com/socfortress/Wazuh-Rules/tree/main/Domain%20Stats)
-* [Snyk](https://github.com/socfortress/Wazuh-Rules/tree/main/Snyk)
-* [Autoruns](https://github.com/socfortress/Wazuh-Rules/tree/main/Windows%20Autoruns)
-* [Sigcheck](https://github.com/socfortress/Wazuh-Rules/tree/main/Windows%20Sysinternals%20Sigcheck)
-* [Powershell](https://github.com/socfortress/Wazuh-Rules/tree/main/Windows%20Powershell)
-* [Crowdstrike](https://github.com/socfortress/Wazuh-Rules/tree/main/Crowdstrike)
-* [Alienvault](https://github.com/socfortress/Wazuh-Rules/tree/main/Domain%20Stats)
+* [Sysmon for Windows](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/Windows_Sysmon)
+* [Sysmon for Linux](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/Sysmon%20Linux)
+* [Office365](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/main/Office%20365)
+* [Microsoft Defender](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/Office%20Defender)
+* [Sophos](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/Sophos)
+* [MISP](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/MISP)
+* [Osquery](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/Osquery)
+* [Yara](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/Yara)
+* [Suricata](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/Suricata)
+* [Packetbeat](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/Packetbeat)
+* [Falco](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/Falco)
+* [Modsecurity](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/Modsecurity)
+* [F-Secure](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/F-Secure)
+* [Domain Stats](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/Domain%20Stats)
+* [Snyk](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/Snyk)
+* [Autoruns](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/Windows%20Autoruns)
+* [Sigcheck](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/Windows%20Sysinternals%20Sigcheck)
+* [Powershell](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/Windows%20Powershell)
+* [Crowdstrike](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/Crowdstrike)
+* [Alienvault](https://github.com/TrueMelody/Kumpulan-Rules-Wazuh/tree/main/Domain%20Stats)
 * Tessian - WIP
-
-### Roadmap
-
-Have an Integration already configured that you'd like to share? Or have an idea for an Integration that you would like help on? Feel free to add it to the Roadmap.
-- [ ] Feel free to bring ideas :smile:
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -118,20 +100,20 @@ Wazuh-Manager Version 4.x Required.
 
 ### Installation
 
-_You can either manually download the .xml rule files onto your Wazuh Manager or make use of our wazuh_socfortress_rules.sh script_
+_You can either manually download the .xml rule files onto your Wazuh Manager or make use of our wazuh_rules.sh script_
 
-> :warning: **USE AT OWN RISK**: If you already have custom rules built out, there is a good chance duplicate Rule IDs will exists. This will casue the Wazuh-Manager service to fail! Ensure there are no conflicting Rule IDs and your custom rules are backed up prior to running the wazuh_socfortress_rules.sh script!
+> :warning: **USE AT OWN RISK**: If you already have custom rules built out, there is a good chance duplicate Rule IDs will exists. This will casue the Wazuh-Manager service to fail! Ensure there are no conflicting Rule IDs and your custom rules are backed up prior to running the wazuh_rules.sh script!
 
 
 1. Become Root User
 2. Run the Script
    ```sh
-   curl -so ~/wazuh_socfortress_rules.sh https://raw.githubusercontent.com/socfortress/Wazuh-Rules/main/wazuh_socfortress_rules.sh && bash ~/wazuh_socfortress_rules.sh
+   curl -so ~/wazuh_rules.sh https://raw.githubusercontent.com/TrueMelody/Kumpulan-Rules-Wazuh/main/wazuh_rules.sh && bash ~/wazuh_rules.sh
    ```
 
 ![Alt Text](https://github.com/socfortress/Wazuh-Rules/blob/main/images/run%20install.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+<p>Credit : SOCFORTRESS</p>
 
